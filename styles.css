@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 500px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 140px 115px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+ul,
+a {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: end;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.p-header {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+.button-1 {
+    padding: 8px 40px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #3882f6;
+}
+
+.button-1:hover {
+    background-color: #4588f5;
+}
+
+.button-2:hover {
+    background-color: #4588f5;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.one {
+    display: flex;
+    justify-content: end;
+}
+
+.logo,
+.links {
+    padding-bottom: 135px;
+}
+
+.left {
+    padding-right: 100px;
+}
+
+/*POSITION*/
+
+.box>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+
+.box>p {
+    color: gray;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sports {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 230px;
+    padding-bottom: 100px;
+}
+
+.title-info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+.box {
+    max-width: 180px;
+}
+
+.script {
+    background-color: #E5E7EB;
+    padding: 120px 250px;
+}
+
+.script>p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.script>div {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 27px;
+    text-align: right;
+}
+
+.button {
+    padding: 90px 170px;
+}
+
+.button-content {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+span {
+    display: block;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.button-2 {
+    padding: 8px 40px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+}
